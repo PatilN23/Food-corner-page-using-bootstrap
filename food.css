@@ -1,0 +1,40 @@
+.navbar{
+   background-color: rgb(191, 88, 51) !important;
+   justify-content: space-evenly  !important;
+   align-items: center !important;
+}
+.carousel1{
+    height: 700px;
+    width: 1500px;
+    box-shadow: 0 0 10px black;
+}
+.icon{
+    color: rgb(238, 215, 206);
+    text-shadow: 10px 10px 10px rgb(44, 19, 1);
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-item{
+    color: white;
+    font-family: Brush Script MT;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style:italic;   
+    
+}
+.nav-item:hover{
+    text-shadow: 10px 10px 10px gray;
+    transform: scale(1.2);
+}
+.card-body{
+    box-shadow: 10px 10px 10px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body:hover{
+    box-shadow: 0 0 20px red;
+    transform: scale(1.1);
+    cursor: hand;
+}
